@@ -1,8 +1,23 @@
 h1,h2,header {
-	color:blue;
+	color:#FDA002;
 	font-family: "Kanit";
 }
 p {
-	color:black;
+	color:white;
 	font-family: "Rokkitt", sans seriff;
+}
+body {
+	background-color: black
+}
+
+a:link{
+	color:#FAFF00;
+}
+
+a:visited{
+	color:#0FF010;
+}
+
+a:hover{
+	color:#C3583C;
 }
