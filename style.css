@@ -1,6 +1,12 @@
-h1,h2,header {
+* {
+	margin: 0;
+	padding: 0;
+}	
+h1,header {
 	color:#FDA002;
 	font-family: "Kanit";
+	text-decoration:none;
+	text-align:center;
 }
 p {
 	color:white;
@@ -10,17 +16,56 @@ body {
 	background-color: black
 }
 
-a:link{
-	color:#FAFF00;
-	text-decoration:none;
+.navbar {
+	padding: 35px;
+	margin:auto;
+	align-items:center;
+	justify-content: space-between;
 }
 
-a:visited{
-	color:#0FF010;
-	text-decoration:none;
+.navbar ul li {
+	font-family: "Kanit";
+	list-style: none;
+	display: inline-block;
+	margin: 0 20px;
+	position: relative;
 }
 
-a:hover{
-	color:#C3583C;
-	text-decoration:none;
+.navbar ul li a {
+	text-decoration: none;
+	color: #fff;
+	text-transform: uppercase;
 }
+
+.navbar ul li::after{
+	content:'';
+	height:3px;
+	width: 0;
+	background: #FDA002;
+	position: absolute;
+	left: 0;
+	bottom: -10px;
+	transition: 0.5s;
+}
+.navbar ul li:hover::after{
+	width: 100%;
+}
+
+p {
+	text-align: center;
+	font-size: 20px;
+	margin: 5px;
+}
+
+h2{
+	color:#FDA002;
+	font-family: "Kanit";
+	text-decoration:none;
+	text-align:center;
+	padding: 30px;
+}
+
+footer {
+	padding: 30px;
+}
+	
