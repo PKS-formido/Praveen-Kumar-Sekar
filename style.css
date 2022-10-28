@@ -4,6 +4,9 @@
 }
 header {
 		display:flex;
+		background-color:black;
+		position:fixed;
+		justify-content:space-around;
 }
 .header {
 	color:#FDA002;
@@ -14,15 +17,15 @@ header {
 p {
 	color:white;
 	font-family: "Rokkitt", sans seriff;
-	text-align: left;
+	text-align: center;
 }
 body {
 	background-color: black;
 }
 
 .navbar {
-	justify-content: space-evenly; 
-	margin: 0 0 0 500px;
+	justify-content: spaced-evenly;
+	margin: 0 0 0 562px;
 	padding: 10px;
 }
 
@@ -39,6 +42,7 @@ body {
 	color: #fff;
 	text-transform: uppercase;
 	display:flex;
+	flex-wrap:wrap;
 }
 
 .navbar ul li::after{
@@ -62,7 +66,14 @@ h2{
 	padding: 30px;
 }
 
+main {
+	font-size: 20px;
+	padding:20px;
+}
+
 footer {
+	color:#FDA002;
+	font-family: "Kanit";
 	padding: 30px;
 	text-align:center;
 }
